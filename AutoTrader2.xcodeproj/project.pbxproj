@@ -12,6 +12,8 @@
 		96992DFF2118F1EA00D9D9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96992DFD2118F1EA00D9D9A5 /* Main.storyboard */; };
 		96992E012118F1ED00D9D9A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96992E002118F1ED00D9D9A5 /* Assets.xcassets */; };
 		96992E042118F1ED00D9D9A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96992E022118F1ED00D9D9A5 /* LaunchScreen.storyboard */; };
+		96992E0E2118FB1400D9D9A5 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96992E0D2118FB1400D9D9A5 /* CarModel.swift */; };
+		96992E102119555500D9D9A5 /* VehiclesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96992E0F2119555500D9D9A5 /* VehiclesGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		96992E002118F1ED00D9D9A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96992E032118F1ED00D9D9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96992E052118F1ED00D9D9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96992E0D2118FB1400D9D9A5 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		96992E0F2119555500D9D9A5 /* VehiclesGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				96992DF92118F1EA00D9D9A5 /* AppDelegate.swift */,
 				96992DFB2118F1EA00D9D9A5 /* ViewController.swift */,
+				96992E0D2118FB1400D9D9A5 /* CarModel.swift */,
 				96992DFD2118F1EA00D9D9A5 /* Main.storyboard */,
 				96992E002118F1ED00D9D9A5 /* Assets.xcassets */,
 				96992E022118F1ED00D9D9A5 /* LaunchScreen.storyboard */,
 				96992E052118F1ED00D9D9A5 /* Info.plist */,
+				96992E0F2119555500D9D9A5 /* VehiclesGenerator.swift */,
 			);
 			path = AutoTrader2;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96992E102119555500D9D9A5 /* VehiclesGenerator.swift in Sources */,
+				96992E0E2118FB1400D9D9A5 /* CarModel.swift in Sources */,
 				96992DFC2118F1EA00D9D9A5 /* ViewController.swift in Sources */,
 				96992DFA2118F1EA00D9D9A5 /* AppDelegate.swift in Sources */,
 			);
